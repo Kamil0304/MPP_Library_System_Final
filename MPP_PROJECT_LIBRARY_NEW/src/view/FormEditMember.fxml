@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="300" prefWidth="600" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FormEditMemberController">
+   <children>
+   <Button fx:id="btnRefresh" maxHeight="35.0" maxWidth="135.0" minHeight="35.0" minWidth="135.0" mnemonicParsing="false" onAction="#btnRefresh" prefHeight="35.0" prefWidth="135.0" text="Save" GridPane.columnIndex="1" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+               </Button>
+      <TableView fx:id="memberTableView" layoutX="-9.0" prefHeight="44.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn prefWidth="136.0" style="-fx-alignment: CENTER;" text="firstName" />
+          <TableColumn prefWidth="150.0" style="-fx-alignment: CENTER;" text="lastName" />
+          <TableColumn prefWidth="160.0" style="-fx-alignment: CENTER;" text="phoneNumber"/>
+    <!--       <TableColumn prefWidth="160.0" style="-fx-alignment: CENTER;" text="street"/> -->
+			<TableColumn prefWidth="180.0" style="-fx-alignment: CENTER;" text="edit member"/>
+			
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
